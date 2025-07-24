@@ -1,15 +1,6 @@
 # single-object-tracking
 This project implements a real-time object tracking system using YOLOv8n for object detection and the SORT algorithm for tracking.
 
-## Features
-- Real-time object detection with **YOLOv8n**.
-- User selects an object in the **first frame** (manual bounding box).
-- Tracks the selected object using **SORT tracking algorithm**.
-- Displays tracking results with bounding box and ID in real-time.
-- Saves the output video with tracking annotations.
-
----
-
 ## Implementation Details
 
 - **Detection**: [YOLOv8n](https://github.com/ultralytics/ultralytics) from Ultralytics is used for detecting objects in each frame.
